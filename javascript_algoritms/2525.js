@@ -12,3 +12,9 @@ const finishMinute = parseInt((nowHour * 60 + nowMinute + loadingMinute) % 60);
 
 console.log(finishHour >= 24 ? finishHour - 24 : finishHour, finishMinute);
 
+// if(24 > finishHour){
+//     console.log(`${finishHour} ${finishMinute}`);
+// }
+// else{
+//     console.log(`${finishHour - 24} ${finishMinute}`)
+// }
