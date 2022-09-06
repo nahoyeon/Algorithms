@@ -7,4 +7,4 @@ function func(arr){
         sum += arr[i]
     }
 }
-func();
+func()
